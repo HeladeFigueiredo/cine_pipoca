@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/filmes.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg bg-dark nav-pills">
+            <div class="container-fluid ms-4 me-4">
+                <h1 class="navbar-brand">Cine Pipoca</h1>
+
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsivo">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse justify-content-end" id="navResponsivo">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Filmes</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ingressos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contatos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <div class="carousel slide mb-5" id="slideCarousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="d-block w-100" src="../imagens/banner1.jpg" alt="">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100"  src="../imagens/banner2.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100"  src="../imagens/banner3.jpg" alt="">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#slideCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" ></span>
+            </button>
+    
+            <button class="carousel-control-next" type="button" data-bs-target="#slideCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" ></span>
+            </button>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slideCarousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#slideCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#slideCarousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        
+
+        <div class="container">
+            <h2 class="titulo mb-2">Filmes em Cartaz</h2>
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark cartao">
+                        <img class="card-img-top text-bg-dark" src="../imagens/filme2.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <div class="d-block">
+                                <h5 class="card-title">Dungeons & Dragons</h5>
+                                <h6 class="card-subtitle">Ação - 134 min</h6>
+                                <p class="card-text">Baseado no famoso jogo Dungeons & Dragons de Role Playing game (RPG), o filme contará a história de um ex-harpista e sua parceira, uma humana bárbara, que após...</p>
+                                <a class="btn btn-secondary" href="#">Horários e Sinopse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark cartao">
+                        <img class="card-img-top" src="../imagens/filme5.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <div class="d-block">  
+                                <h5 class="card-title">John Wick 4: Baba Yaga</h5>
+                                <h6 class="card-subtitle">Ação - 169 min</h6>
+                                <p class="card-text">Com o preço por sua cabeça cada vez maior, o lendário assassino de aluguel John Wick leva sua luta contra o High Table global enquanto procura os jogadores mais...</p>
+                                <a class="btn btn-secondary" href="#">Horários e Sinopse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark cartao">
+                        <img class="card-img-top" src="../imagens/filme3.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <div class="d-block">
+                                <h5 class="card-title">O Exorcista do Papa</h5>
+                                <h6 class="card-subtitle">Terror - 103 min</h6>
+                                <p class="card-text">A trama será baseada na história real do exorcista Gabriel Amort, um lendário padre italiano que realizou mais de 100 mil exorcismos para o vaticano.</p>
+                                <a class="btn btn-secondary" href="#">Horários e Sinopse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark cartao">
+                        <img class="card-img-top" src="../imagens/filme4.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <div class="d-block">
+                                <h5 class="card-title">Shazam! Fúria dos Deuses</h5>
+                                <h6 class="card-subtitle">Ação - 130 min</h6>
+                                <p class="card-text">Basta gritar uma palavra - SHAZAM! - para que o jovem se transforme no super-herói adulto Shazam, dom que recebeu de um antigo mago. Um menino dentro de um...</p>
+                                <a class="btn btn-secondary" href="#">Horários e Sinopse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark cartao">
+                        <img class="card-img-top" src="../imagens/filme6.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <div class="d-block">
+                                <h5 class="card-title">Pânico VI</h5>
+                                <h6 class="card-subtitle">Terror - 123 min</h6>
+                                <p class="card-text">IMPORTANTE - Não recomendado para menores de 18 anos. Depois das últimas mortes provocadas por Ghostface, quatro sobreviventes deixam Woodsboro para trás...</p>
+                                <a class="btn btn-secondary" href="#">Horários e Sinopse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                    <div class="card text-bg-dark cartao">
+                        <img class="card-img-top text-bg-dark" src="../imagens/filme1.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <div class="d-block"> 
+                                <h5 class="card-title">Metallica: 72 Seasons</h5>
+                                <h6 class="card-subtitle">Musical - 120 min</h6>
+                                <p class="card-text"> Cada uma das novas canções apresenta seu próprio vídeo clipe e comentários exclusivos da banda. O resultado oferece aos fãs a oportunidade de serem os...</p>
+                                <a class="btn btn-secondary" href="#">Horários e Sinopse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer class="footer">
+        <h3>&copy; 2023 - Todos os direitos reservados</h3>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

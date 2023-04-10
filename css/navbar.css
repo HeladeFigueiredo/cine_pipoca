@@ -1,0 +1,46 @@
+
+.navbar-brand {
+    font-size: 24px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-link {
+    font-size: 19px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.nav-pills{
+    background-color: #191970 !important;
+}
+
+.nav-link:hover, .nav-item .active {
+    background-color: #fff !important;
+    color: #191970 !important;
+}
+
+.nav-link:focus {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        display: none !important;
+    }
+
+    .titulo {
+        margin-top: 20px;
+    }
+}

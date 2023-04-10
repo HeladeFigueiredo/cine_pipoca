@@ -1,0 +1,95 @@
+.card, 
+.card img {
+    border-radius: 5%;
+}
+
+.card .card-img-overlay {
+    background: linear-gradient(rgba(0, 0, 0, .01), rgba(0, 0, 0, .9) 50%, rgba(0, 0, 0, 1));
+    display: none;
+    border-radius: 5%;
+}
+
+.card:hover .card-img-overlay {
+    display: flex !important;
+    align-items: flex-end;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: 700;
+    color: #191970;
+}
+
+.cartao {
+    margin: 20px;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.card-subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #191970;
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: #191970;
+    background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 22px;
+    }
+
+    .card-subtitle {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 4px 10px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 425px) {
+    .card-title {
+        font-size: 24px;
+    }
+
+    .card-subtitle {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 4px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
